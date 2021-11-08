@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.928">
+    <testcase classname="ToDo list" name="Add the first item to the TODO list" time="29.53">
+        <system-out>
+            <![CDATA[Given Kullanıcı "https://www.avansas.com/" sitesine gider...................passed
+When Avansas.com da arama alanına "kalem" yazılarak ara butonu tıklanır.....passed
+And Kategori listesinden "Kurşun Kalemler" kategorisi tıklanır..............passed
+And Sıralama fonksiyonundan ada göre sırala seçilir.........................passed
+And Gelen ürün listesinde adında "Bic Evolution" içeren kaç ürün olduğu tespit edilir..passed
+Then Ürün adeti tespit edilir ve 0 dan fazla ise test başarılıdır, 0 ise başarısızdır..passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

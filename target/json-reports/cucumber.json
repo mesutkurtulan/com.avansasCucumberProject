@@ -1,0 +1,166 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-08T06:53:44.376Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3989900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add the first item to the TODO list",
+        "description": "",
+        "id": "todo-list;add-the-first-item-to-the-todo-list",
+        "after": [
+          {
+            "result": {
+              "duration": 784456800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8881065700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Kullanıcı \"https://www.avansas.com/\" sitesine gider.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.avansas.com/\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AvansasStepDefinition.kullanıcı_sitesine_girer(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7806911400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Avansas.com da arama alanına \"kalem\" yazılarak ara butonu tıklanır.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kalem\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.AvansasStepDefinition.avansasComDaAramaAlanınaYazılarakAraButonuTıklanır(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6581508000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Kategori listesinden \"Kurşun Kalemler\" kategorisi tıklanır.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kurşun Kalemler\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.AvansasStepDefinition.kategoriListesindenKategorisiTıklanır(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5192623200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Sıralama fonksiyonundan ada göre sırala seçilir.",
+            "match": {
+              "location": "stepdefinitions.AvansasStepDefinition.sıralamaFonksiyonundanAdaGöreSıralaSeçilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78270700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Gelen ürün listesinde adında \"Bic Evolution\" içeren kaç ürün olduğu tespit edilir.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bic Evolution\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.AvansasStepDefinition.gelenÜrünListesindeAdındaIçerenKaçÜrünOlduğuTespitEdilir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57906900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Ürün adeti tespit edilir ve 0 dan fazla ise test başarılıdır, 0 ise başarısızdır.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 28
+                },
+                {
+                  "val": "0",
+                  "offset": 62
+                }
+              ],
+              "location": "stepdefinitions.AvansasStepDefinition.ürünAdetiTespitEdilirVeDanFazlaIseTestBaşarılıdırIseBaşarısızdır(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Avansas"
+          }
+        ]
+      }
+    ],
+    "name": "ToDo list",
+    "description": "",
+    "id": "todo-list",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/avansas.feature",
+    "tags": [
+      {
+        "name": "@Avansas",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
